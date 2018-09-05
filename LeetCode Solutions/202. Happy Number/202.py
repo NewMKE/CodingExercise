@@ -17,3 +17,8 @@ class Solution:
             st.add(n)
             n = self.square_sum(n)
         return n == 1
+
+
+if __name__=='__main__':
+    s=Solution()
+    print(s.isHappy(19))
